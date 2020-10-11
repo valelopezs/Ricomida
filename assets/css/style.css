@@ -1,0 +1,70 @@
+
+body{
+    font-family: 'Cabin', sans-serif;
+}
+
+.logo-ricomida{
+    font-family: 'Lobster', cursive;
+}
+
+.hero-img{
+    width: 100%;
+}
+
+.borde-top{
+    border-top: 2px solid #373a3C;
+}
+
+.borde-top-sm{
+    border-top: 2px solid #373a3C;
+}
+
+.carousel-indicators {
+   position: relative;
+}
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #373a3C;
+}
+  #images-section {
+	border-bottom: solid 2px #373a3C;
+}
+
+.adornos{
+    list-style-type: none;
+}
+
+.newsletter{
+    padding: 10% 10% 12% 10%;
+    font-size: 1.25rem;
+}
+.mayuscula-newsletter{
+    font-size: 1.875rem;
+}
+.ancho-boton{
+    padding: 1% 10%;
+    min-width: 233px;
+}
+
+.texto-obten{
+    font-size: 1.4rem;
+}
+
+.logo-ricomida-footer{
+    font-family: 'Lobster', cursive;
+    font-size: 2rem;
+}
+
+@media only screen and (min-width: 768px){
+    .newsletter{
+        font-size: 1.875rem;
+    }
+    .mayuscula-newsletter{
+        font-size: 2.5rem;
+    }
+    .texto-obten{
+        font-size: 1.875rem;
+    }
+}
